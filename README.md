@@ -4,8 +4,8 @@
 
 klush is a dynmicaly typed object oriented programming language with garbage collector.
 ```
-// Your first Tok Program
-print "Hello, Tok!";
+// Your first klush Program
+print "not a fluff developer!";
 ```
 
 **Head over to the [Documentation](/DOCUMENTATION.md)** to see code examples and other language features!
@@ -24,7 +24,7 @@ source ~/.bashrc
 
 ## Windows
 
-ditch it god knows how to set path.
+God knows how to set paths on trash windows.
 
 ## Under the hood
 
