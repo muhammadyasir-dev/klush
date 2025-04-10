@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/kc.dir/src/main.c.o CMakeFiles/kc.dir/src/chunk.c.o CMakeFiles/kc.dir/src/debug.c.o CMakeFiles/kc.dir/src/memory.c.o CMakeFiles/kc.dir/src/value.c.o CMakeFiles/kc.dir/src/vm.c.o CMakeFiles/kc.dir/src/compiler.c.o CMakeFiles/kc.dir/src/scanner.c.o CMakeFiles/kc.dir/src/object.c.o CMakeFiles/kc.dir/src/table.c.o -o kc 
