@@ -5,7 +5,7 @@ Go through this document to get familiar with how klush code looks like, and wha
 ## Hello, klush
 
 ```
-// Your first Tok program.
+// Your first klush program.
 print "not a fluff developer!";
 ```
 
