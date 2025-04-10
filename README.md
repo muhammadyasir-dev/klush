@@ -1,4 +1,4 @@
-# klush
+# klush programming language
 
 <img src="./assets/spanner.png" alt="Description of Image" width="150" height="200">
 
