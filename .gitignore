@@ -2,8 +2,4 @@
 
 ./src/object.c
 ./src/object.h
-./src/scanner.h
-./src/scanner.c
-
-
 
