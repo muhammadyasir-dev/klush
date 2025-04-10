@@ -1,6 +1,6 @@
 # klush
 
-<img src="./assets/spanner.png" alt="Description of Image" width="89" height="80">
+<img src="./assets/spanner.png" alt="Description of Image" width="150" height="150">
 
 klush is a dynmicaly typed object oriented programming language with garbage collector.
 
