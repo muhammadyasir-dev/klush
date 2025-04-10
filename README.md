@@ -1,8 +1,10 @@
 # klush
 
-![logo](/assets/spanner.png)
+<img src="./assets/spanner.png" alt="Description of Image" width="89" height="80">
 
 klush is a dynmicaly typed object oriented programming language with garbage collector.
+
+* Note it is ready for use in production
 ```
 // Your first klush Program
 print "not a fluff developer!";
