@@ -1,4 +1,51 @@
 
-//comments
+// Define a binary tree node
+class TreeNode {
+    init(value) {
+        this.value = value;
+        this.left = nil;
+        this.right = nil;
+    }
+}
 
-print "hello bhai";
+// Function to invert a binary tree
+fun invertTree(node) {
+    if (node == nil) {
+        return nil;
+    }
+
+    // Swap the left and right children
+    var temp = node.left;
+    node.left = node.right;
+    node.right = temp;
+
+    // Recursively invert the left and right subtrees
+    invertTree(node.left);
+    invertTree(node.right);
+
+    return node;
+}
+
+// Helper function to print the tree in-order (for testing)
+fun printInOrder(node) {
+    if (node != nil) {
+        printInOrder(node.left);
+        print node.value;
+        printInOrder(node.right);
+    }
+}
+
+// Example usage
+var root = TreeNode(1);
+root.left = TreeNode(2);
+root.right = TreeNode(3);
+root.left.left = TreeNode(4);
+root.left.right = TreeNode(5);
+
+print "Original tree in-order:";
+printInOrder(root);
+
+invertTree(root);
+
+print "Inverted tree in-order:";
+printInOrder(root);

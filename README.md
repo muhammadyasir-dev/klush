@@ -1,6 +1,6 @@
 # klush
 
-!(logo)[/assets/klush.jpg]
+![logo](/assets/klush.jpg)
 
 klush is a dynmicaly typed object oriented programming language with garbage collector.
 ```
