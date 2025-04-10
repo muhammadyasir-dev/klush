@@ -1,0 +1,12 @@
+*/build/
+
+./src/object.c
+./src/object.h
+./src/scanner.h
+./src/scanner.c
+
+./CMakeLists.txt
+./DOCUMENTATION.md
+
+./assets/
+

@@ -1,0 +1,3 @@
+/home/anonymous/scorp/klush/build/CMakeFiles/kc.dir
+/home/anonymous/scorp/klush/build/CMakeFiles/edit_cache.dir
+/home/anonymous/scorp/klush/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,138 @@
+var breakfast = "beignets";
+var beverage = "cafe au lait";
+breakfast = "beignets with " + beverage;
+
+print breakfast;
+
+var a = 12;
+
+{
+    var b = a;
+    print a;
+    {
+        var c = b;
+        print "Different Values of c:";
+        print c;
+        c = 50;
+        print c;
+        c = "Yoo";
+        print c;
+        print "";
+        print "a from globals";
+        print a;
+    }
+}
+
+if (!false and true) {
+    print "print statement inside (!false and true) condition";
+}
+
+if (false or true) {
+    print "print statement inside (false or true) condition";
+}
+
+if (false or !true) {
+    print "print statement inside (false or !true) condition";
+}
+
+// Loops
+
+var count = 5;
+
+while(count != 0) {
+    print "This will print 5 times.";
+    count = count - 1;
+}
+
+for(var i = 0; i < 5; i = i + 1) {
+    print "This for loop runs 5 times";
+}
+
+// Functions
+
+fun areWeHavingItYet() {
+  print "geddit?";
+  return "Yes we are!";
+}
+
+print areWeHavingItYet();
+
+// Closures
+
+fun outer() {
+  var x = "value";
+  fun middle() {
+    fun inner() {
+      print x;
+    }
+
+    print "create inner closure";
+    return inner;
+  }
+
+  print "return from outer";
+  return middle;
+}
+
+var mid = outer();
+var in = mid();
+in();
+
+
+fun outer() {
+  var x = "outside";
+  fun inner() {
+    print x;
+  }
+
+  return inner;
+}
+
+var closure = outer();
+closure();
+
+// Classes
+
+class CoffeeMaker {
+  init(coffee) {
+    this.coffee = coffee;
+  }
+
+  brew() {
+    print "Enjoy your cup of " + this.coffee;
+
+    // No reusing the grounds!
+    this.coffee = nil;
+  }
+}
+
+var maker = CoffeeMaker("coffee and Cocoa");
+maker.brew();
+
+// inheritance
+
+class Doughnut {
+  cook() {
+    print "Dunk in the fryer.";
+    this.finish("sprinkles");
+  }
+
+  finish(ingredient) {
+    print "Finish with " + ingredient;
+  }
+}
+
+class Cruller < Doughnut {
+  finish(ingredient) {
+    // No sprinkles, always icing.
+    super.finish("icing");
+  }
+}
+
+var snacc = Cruller();
+snacc.finish("something");
+
+
+
+
+
